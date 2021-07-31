@@ -1,0 +1,57 @@
+/*HEADER*/
+header {
+    height: 6.25rem;
+    background-color: #000;
+    color: #fff;
+}
+
+header .header {
+    max-width: 71.25rem;
+    height: 6.25rem;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.logo {
+    width: 5rem;
+    height: 6.25rem;
+}
+
+.logo-img {
+    width: 5rem;
+    height: 5rem;
+    background-color: #b28756;
+}
+
+.menu {
+    flex: 1;    
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu ul li {    
+    list-style: none;   
+}
+
+.menu ul {
+    display: flex;    
+}
+
+.menu li a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;   
+    padding: 0 .5rem 0 .5rem;
+    height: 6.25rem;
+    border-bottom: #000;
+}
+
+.menu li a:hover,
+.menu .active a {
+    border-bottom: .2rem solid #b28756;
+    color: #ccc;
+}
