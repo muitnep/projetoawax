@@ -8,7 +8,7 @@ main .banner {
     
 }
 
-.banner .slides {
+.banner .sliders {
     width: 1000vw;
     height: 100%;
     
@@ -16,7 +16,7 @@ main .banner {
 
 .banner .slide {
     width: 100vw;
-    height: 100%;;
+    height: 100%;
     background-color: rgba(0,0,0,.6);
 }
 
@@ -56,4 +56,28 @@ main .banner {
     margin-top: 1.875rem;
     padding: .625rem 1.875rem;
     border-radius: 1.25rem;
+}
+
+.banner .sliders-pointers {
+    width: 100vw;
+    height: 1.25rem;
+    position: absolute;
+    margin-top: -3.125rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner .pointer {
+    width: .9375rem;
+    height: .9375rem;
+    border: .2rem solid #b28756;
+    border-radius: .5rem;
+    margin-left: .3125rem;
+    margin-right: .3125rem;
+    cursor: pointer;
+}
+
+.banner .pointer.active {
+    background-color: red;
 }
