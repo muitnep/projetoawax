@@ -1,0 +1,42 @@
+.default {
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+}
+
+.default .section-title,
+.default .section-description {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.default .section-title {
+  font-size: 1.25rem;
+}
+.default .section-description {
+  font-size: 0.725rem;
+  margin-top: 1.25rem;
+  margin-bottom: 2.5rem;
+  background-color: #ccc;
+}
+
+.default .section-body {
+  max-width: 71.25rem;
+  margin: auto;
+  background-color: #ccc;
+}
+
+.default.light {
+  background-color: #f7f7f7;
+}
+
+.default.light .section-title {
+  color: #000;
+}
+
+.default.dark {
+  background-color: #000;
+}
+
+.default.dark .section-title {
+  color: #fff;
+}
