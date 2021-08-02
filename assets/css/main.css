@@ -42,8 +42,8 @@ main .banner {
   margin-top: 1.25rem;
 }
 
-.banner a {
-  display: block;
+.button {
+  display: inline-block;
   text-decoration: none;
   text-transform: uppercase;
   background-color: #b28756;

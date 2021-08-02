@@ -1,0 +1,23 @@
+.default .section-about-us {
+    display: flex;
+}
+
+.default .section-about-us--left {
+    flex: 1;
+}
+
+.default .section-about-us--right {
+    width: 32.5rem;
+    text-align: center;
+    
+}
+
+.default .section-about-us--right img {
+    width: 30rem;
+    box-shadow: 0 .625rem .625rem #333;
+}
+
+.default .section-about-us--left p {
+    font-size: .875rem;
+    line-height: 1.5625rem;
+}

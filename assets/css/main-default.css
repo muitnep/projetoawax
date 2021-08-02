@@ -16,20 +16,20 @@
   font-size: 0.725rem;
   margin-top: 1.25rem;
   margin-bottom: 2.5rem;
-  background-color: #ccc;
+  
 }
 
 .default .section-body {
   max-width: 71.25rem;
-  margin: auto;
-  background-color: #ccc;
+  margin: auto;  
 }
 
 .default.light {
-  background-color: #f7f7f7;
+  background-color: #f7f7f7;  
 }
 
-.default.light .section-title {
+.default.light .section-title,
+.default.light .section-body{
   color: #000;
 }
 
@@ -37,6 +37,10 @@
   background-color: #000;
 }
 
-.default.dark .section-title {
+.default.dark .section-title,
+.default.dark .section-description,
+.default.dark .section-body {
   color: #fff;
 }
+
+
