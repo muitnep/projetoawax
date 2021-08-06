@@ -1,0 +1,61 @@
+.bg-team {
+  background-image: url('../images/media/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+}
+
+.section-team {
+  max-width: 55rem;
+  overflow: hidden;
+  margin: auto;
+}
+
+.section-team-area {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 3.125rem 0 3.125rem 0;
+}
+
+.section-team .sliders {
+  width: 1000vw;
+  height: 100%;
+}
+
+.section-team .slide {
+  width: 17.5rem;
+  height: 100%;
+  display: inline-block;
+  background-color: #fff;
+  margin: 0 1.25rem 0 0;
+}
+
+.section-team .slide-area {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.section-team .sliders-pointers {
+  margin-top: 1.875rem;
+  height: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-team .pointer {
+  width: 0.9375rem;
+  height: 0.9375rem;
+  border: 0.2rem solid #b28756;
+  border-radius: 0.5rem;
+  margin-left: 0.3125rem;
+  margin-right: 0.3125rem;
+  cursor: pointer;
+}
+
+.section-team .pointer.active {
+  background-color: #b28756;
+}
