@@ -1,0 +1,54 @@
+.section-client {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-client--avatar {
+    
+}
+
+.section-client--name {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.0625rem;
+    margin-top: 1.875rem;
+}
+
+.section-client--role {
+    font-weight: 600;
+}
+
+.section-client--depoiment {
+    text-align: center;
+    max-width: 55rem;
+    font-size: .875rem;
+    line-height: 1.5625rem;
+}
+
+.section-client--depoiment img {
+    padding-top: 1rem;
+    
+}
+
+.section-client .sliders-pointers {
+    margin-top: 1.875rem;
+    height: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .section-client .pointer {
+    width: 0.9375rem;
+    height: 0.9375rem;
+    border: 0.2rem solid #b28756;
+    border-radius: 0.5rem;
+    margin-left: 0.3125rem;
+    margin-right: 0.3125rem;
+    cursor: pointer;
+  }
+  
+  .section-client .pointer.active {
+    background-color: #b28756;
+  }
