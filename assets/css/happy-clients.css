@@ -1,3 +1,6 @@
+#happyclients {
+    background-color: aliceblue;
+}
 .section-client {
     display: flex;
     flex-direction: column;

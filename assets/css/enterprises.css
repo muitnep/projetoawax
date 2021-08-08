@@ -1,0 +1,9 @@
+.enterprises {
+    margin: 3REM auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.enterprise img {
+    margin-right: 3rem;
+}
