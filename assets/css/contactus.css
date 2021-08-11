@@ -1,0 +1,48 @@
+.section-contact {
+  max-width: 28.125rem;
+  margin: auto;
+  text-align: center;
+}
+
+.section-contact input[type='text'],
+.section-contact textarea {
+  display: block;
+  width: 100%;
+  height: 2.5rem;
+  border: 0;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  outline: 0;
+  margin-top: 0.625rem;
+}
+
+.section-contact textarea {
+  margin-top: 3rem;
+  height: 100%;
+  resize: none;
+}
+
+.section-contact textarea::placeholder {
+  font-size: 1rem;
+}
+.section-contact--split {
+  display: flex;
+}
+
+.section-contact--split input:first-child {
+  margin-right: 1.25rem;
+}
+
+.button-contact {
+  display: inline-block;
+  background-color: #b28756;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 10px 30px;
+  margin-top: 30px;
+  border-radius: 20px;
+  border: none;
+}
